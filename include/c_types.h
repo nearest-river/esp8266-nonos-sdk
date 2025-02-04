@@ -63,8 +63,8 @@ typedef double              real64;
 
 #define __le16      u16
 
-#ifndef __SIZE_TYPE__
-typedef unsigned int        size_t;
+#ifndef size_t
+//typedef unsigned int        size_t;
 #endif
 
 #ifndef __packed
