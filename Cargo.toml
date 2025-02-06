@@ -2,6 +2,13 @@
 name = "esp8266-nonos-sdk"
 version = "0.1.0"
 edition = "2021"
+description = "esp8266-nonos-sdk bindings for rust"
+authors = ["Nearest River river177169@proton.me"]
+license = "GPL-2.0-only"
+repository = "https://github.com/nearest-river/esp8266-nonos-sdk"
+keywords = ["esp8266", "embedded", "esp"]
+categories = ["embedded"]
+
 
 [dependencies]
 xtensa-lx-rt = { version = "0.16.0", features = ["esp8266"] }
